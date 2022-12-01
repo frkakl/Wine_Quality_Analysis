@@ -6,7 +6,7 @@ import warnings
 
 warnings.filterwarnings("ignore")
 
-wine_data = pd.read_csv(r"Wine_Quality_Analyzing\winequality_data.csv")
+wine_data = pd.read_csv(r"C:\Users\ofaru\Desktop\GitHub\Wine_Quality_Analyzing\winequality_data.csv")
 
 print(wine_data.head())
 print(wine_data.shape)
